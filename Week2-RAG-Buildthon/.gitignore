@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+
+# Ignore other scripts & projects
+Day1miniproject/
+.postman/
+postman/
+*.png
+*.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+faiss_index/
