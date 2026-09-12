@@ -1,0 +1,30 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables & secrets (CRITICAL: Keeps OpenAI & Neo4j keys safe)
+.env
+.env.local
+*.env
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit temporary files
+.streamlit/secrets.toml
+
+# NetworkX local export files (if generated)
+*.gml
+*.graphml
+*.json
